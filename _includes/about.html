@@ -1,58 +1,26 @@
-import React from 'react';
-
-const AboutSection = () => {
-  return (
-    <section className="py-16 bg-emerald-500 text-white">
-      <div className="max-w-4xl mx-auto px-4">
-        {/* Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">ABOUT ME</h2>
-          <div className="flex items-center justify-center">
-            <div className="border-t-2 border-white w-16" />
-            <div className="mx-4">⭐</div>
-            <div className="border-t-2 border-white w-16" />
-          </div>
-        </div>
-
-        {/* Main Content */}
-        <div className="space-y-6 text-lg">
-          <p>
-            Hi there! I'm Mohamed Shiban Lal, a passionate and driven Data Analyst with a knack for turning raw data into actionable insights. Currently pursuing my MSc in Data Science, I bring a unique blend of analytical thinking, problem-solving skills, and technical expertise to the table.
-          </p>
-          
-          <p>
-            With a strong foundation in tools like Excel, SQL, and Python, I have worked on various projects ranging from predictive modeling to data visualization. My goal is to uncover stories hidden in data and translate them into strategies that drive meaningful results.
-          </p>
-          
-          <p>
-            I thrive in collaborative environments where I can use my skills to solve real-world problems. Whether it's creating insightful dashboards, developing machine learning models, or analyzing complex datasets, I'm always up for a challenge.
-          </p>
-
-          <div className="mt-8">
-            <h3 className="text-xl font-semibold mb-4">When I'm not working with data, you can find me:</h3>
-            <ul className="space-y-2 list-inside ml-4">
-              <li className="flex items-center">
-                <span className="mr-2">🏏</span>
-                Playing cricket on weekends
-              </li>
-              <li className="flex items-center">
-                <span className="mr-2">🎸</span>
-                Practicing the guitar or singing early in the morning
-              </li>
-              <li className="flex items-center">
-                <span className="mr-2">🤖</span>
-                Exploring the intersection of machine learning and future technologies
-              </li>
-            </ul>
-          </div>
-
-          <p className="mt-8">
-            Feel free to explore my portfolio to learn more about my projects, skills, and journey in the field of data analysis. Let's connect and create data-driven success stories together!
-          </p>
-        </div>
+<!-- About Section -->
+<section class="success" id="about">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-lg-12">
+        <h2>About Me</h2>
+        <hr class="star-light">
       </div>
-    </section>
-  );
-};
-
-export default AboutSection;
+    </div>
+    <div class="row align-items-center">
+      <!-- Profile Image -->
+      <div class="col-lg-4 text-center">
+        <img src="img/profile.png" alt="Profile Picture" class="img-responsive img-circle">
+      </div>
+      <!-- About Text -->
+      <div class="col-lg-8">
+        <p>
+          As a recent MSc Data Science and Analytics graduate from the University of Westminster, I combine strong analytical skills with practical experience in machine learning and data visualization. My academic journey, complemented by over 3 years of experience at EY, has equipped me with a unique blend of technical expertise and business acumen.
+        </p>
+        <p>
+          I'm passionate about transforming complex data into actionable insights. My recent projects include developing LSTM neural networks for retail sales forecasting and implementing deep reinforcement learning for investment strategies. I'm now seeking opportunities to apply my skills in data analytics, where I can contribute to data-driven decision-making and business growth.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
