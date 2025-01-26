@@ -6,6 +6,6 @@ img: cabin.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
-Link: Web Development
-description: Hi.
+Link: https://github.com/Shiban1503/Deep-Reinforcement-Learning-Stock-Trading
+description: This project explores the application of deep reinforcement learning (DRL) for stock trading. By integrating multiple data sources like raw stock prices, technical indicators, and candlestick charts, the model aims to create a dynamic and adaptive trading strategy.
 ---
