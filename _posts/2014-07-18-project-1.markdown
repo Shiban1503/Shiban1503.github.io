@@ -4,8 +4,8 @@ modal-id: 1
 date: 2014-07-18
 img: cabin.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+technology-used: Python, Panda, Numpy, Matplotlib, Tensorflow
+project-name: Stock Trading Using DRL
 link: https://github.com/Shiban1503/Deep-Reinforcement-Learning-Stock-Trading
 description: This project leverages deep reinforcement learning (DRL) for automated stock trading. By integrating multiple data sources including real-time market data, technical indicators, and candlestick patterns, the model creates a dynamic trading strategy. Achieved 20% annual returns in backtesting across 5 years of historical data. Implemented real-time market data processing pipeline handling 1000+ stocks simultaneously.
 ---
