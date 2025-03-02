@@ -146,6 +146,26 @@ header .intro-text .skills {
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+@keyframes rainbow-bg {
+  0% { background: linear-gradient(90deg, red, orange); }
+  14% { background: linear-gradient(90deg, orange, yellow); }
+  28% { background: linear-gradient(90deg, yellow, green); }
+  42% { background: linear-gradient(90deg, green, blue); }
+  57% { background: linear-gradient(90deg, blue, indigo); }
+  71% { background: linear-gradient(90deg, indigo, violet); }
+  85% { background: linear-gradient(90deg, violet, red); }
+  100% { background: linear-gradient(90deg, red, orange); }
+}
+
+/* Apply the gradient animation to your site title */
+.navbar-brand {
+  background: linear-gradient(90deg, red, orange);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: rainbow-bg 5s linear infinite;
+}
+    
 }
 
 .navbar {
