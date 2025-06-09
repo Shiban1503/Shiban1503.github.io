@@ -1,11 +1,11 @@
 ---
 layout: default
-modal-id: 1
-date: 2014-07-18
-img: DRL.png
+modal-id: 3
+date: 2014-07-19
+img: D.png
 alt: image-alt
-technology-used: Python, Panda, Numpy, Matplotlib, Tensorflow
-project-name: Investment Decisions with Deep Reinforcement Learning
-link: https://github.com/Shiban1503/Deep-Reinforcement-Learning-Stock-Trading
-description: This project leverages deep reinforcement learning (DRL) for automated stock trading. By integrating multiple data sources including real-time market data, technical indicators, and candlestick patterns, the model creates a dynamic trading strategy. Achieved 20% annual returns in backtesting across 5 years of historical data. Implemented real-time market data processing pipeline handling 1000+ stocks simultaneously.
+technology-used: Python, Pandas, Numpy, Matplotlib, Seaborn, EDA
+project-name: Nikola Motors Social Analytics
+link: https://github.com/Shiban1503/Nikola-Motors-Social-Analytics
+Description: This project analyzes public sentiment and trending topics surrounding Nikola Motors, using user-generated content from Reddit and YouTube. By applying techniques such as web scraping, NLP preprocessing, topic modeling (LDA), and sentiment analysis (VADER), this project helps understand how the EV brand is perceived online, especially during controversial events like the Hindenburg report and Trevor Milton’s resignation.
 ---
