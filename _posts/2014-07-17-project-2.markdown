@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: Social.png
+img: Retail.png
 alt: image-alt
 technology-used: Python, Panda, Numpy, Matplotlib, Seaborn
 project-name: Exploratory Data Analysis of Retail Store Using LSTM
