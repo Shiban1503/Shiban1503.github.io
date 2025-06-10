@@ -1,6 +1,6 @@
 ---
 layout: default
-model-id: 3
+modal-id: 1
 date: 2014-07-16
 img: Social.png
 alt: image-alt
