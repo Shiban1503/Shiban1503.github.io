@@ -1,11 +1,11 @@
 ---
 layout: default
-modal-id: 3
-date: 2014-07-16
-img: Social.png
+modal-id: 4
+date: 2014-07-15
+img: Retention.png
 alt: image-alt
 technology-used: Python, Pandas, Numpy, Matplotlib, Seaborn, EDA
 project-name: Nikola Motors Social Analytics
-link: https://github.com/Shiban1503/Nikola-Motors-Social-Analytics
-description: This project analyzes public sentiment and trending topics surrounding Nikola Motors, using user-generated content from Reddit and YouTube. By applying techniques such as web scraping, NLP preprocessing, topic modeling (LDA), and sentiment analysis (VADER), this project helps understand how the EV brand is perceived online, especially during controversial events like the Hindenburg report and Trevor Milton’s resignation.
+link: https://github.com/Shiban1503/Customer-Retention-Enhancement
+description: A predictive analytics project focused on identifying customers at risk of churning using machine learning, empowering SmartBank to implement proactive retention strategies. This project demonstrates a complete data science pipeline – from data wrangling and EDA to model deployment via Streamlit. It showcases practical skills in churn prediction, model selection, interpretability, and business impact analysis.
 ---
