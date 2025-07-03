@@ -2,7 +2,7 @@
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: Retention.png
+img: Churn.png
 alt: image-alt
 technology-used: Data Collection & Integration, Data Preprocessing and Cleaning, Exploratory Data Analysis (EDA), Reporting and Communication, Streamlit App
 project-name: Customer Churn Prediction for SmartBank (Lloyds Banking Group)
